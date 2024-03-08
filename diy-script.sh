@@ -22,7 +22,7 @@ rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/luci/applications/luci-app-netdata
 rm -rf feeds/luci/applications/luci-app-serverchan
 rm -rf feeds/luci/applications/luci-app-mwan3
-rm -rf feeds/luci/applications/mwan3
+rm -rf feeds/packages/net/mwan3
 
 # Git稀疏克隆，只克隆指定目录到本地
 function git_sparse_clone() {
