@@ -73,8 +73,8 @@ git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 
 #mwan3
-git clone --depth=1 https://github.com/0xACE8/mwan3 package/mwan3
-git clone --depth=1 https://github.com/0xACE8/luci-app-mwan3 package/luci-app-mwan3
+git clone --depth=1 https://github.com/doa2011/small-package/tree/main/mwan3 package/mwan3
+git clone --depth=1 https://github.com/mozuipi/luci-app-mwan3 package/luci-app-mwan3
 
 # msd_lite
 git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
