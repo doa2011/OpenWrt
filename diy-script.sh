@@ -21,8 +21,8 @@ rm -rf feeds/luci/themes/luci-theme-netgear
 rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/luci/applications/luci-app-netdata
 rm -rf feeds/luci/applications/luci-app-serverchan
-rm -rf feeds/luci/applications/luci-app-mwan3
-rm -rf feeds/packages/net/mwan3
+# rm -rf feeds/luci/applications/luci-app-mwan3
+# rm -rf feeds/packages/net/mwan3
 
 # Git稀疏克隆，只克隆指定目录到本地
 function git_sparse_clone() {
@@ -73,8 +73,8 @@ git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 
 #mwan3
-git clone --depth=1 https://github.com/doa2011/small-package/tree/main/mwan3 package/net/mwan3
-git clone --depth=1 https://github.com/mozuipi/luci-app-mwan3 applications/luci-app-mwan3
+#git clone --depth=1 https://github.com/doa2011/small-package/tree/main/mwan3 package/net/mwan3
+#git clone --depth=1 https://github.com/mozuipi/luci-app-mwan3 applications/luci-app-mwan3
 
 # msd_lite
 git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
